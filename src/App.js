@@ -4,9 +4,9 @@ import styled from 'styled-components';
 import { BrowserRouter,Routes,Route,Link } from "react-router-dom";
 import 'react-toastify/dist/ReactToastify.min.css';
 
-import UsersList from "./components/UsersList";
-import CreateUser from "./components/CreateUser";
-import RetrieveUser from "./components/RetrieveUser";
+import UsersList from "./components/user/UsersList";
+import CreateUser from "./components/user/CreateUser";
+import RetrieveUser from "./components/user/RetrieveUser";
 
 /*const BlueText = styled.div`
   color: blue;
